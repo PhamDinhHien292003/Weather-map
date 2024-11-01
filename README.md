@@ -22,3 +22,6 @@ This project allows users to check the weather of a specific country using the O
 1. Clone the repository:
  
    git clone https://github.com/PhamDinhHien292003/Weather-map.git
+   
+## Demo Project 
+1. Link video demo youtube : https://youtu.be/k7bRxm-ZdGY

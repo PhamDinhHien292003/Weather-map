@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <th:block th:replace="~{Fragment/headeric :: head}"></th:block>
+<body>
+<th:block th:replace ="~{Fragment/header ::head}"></th:block>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 text-center">
+            <a href="#" class="text-decoration-none">
+                <p>Hôm nay</p>
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+            <a href="#1" class="text-decoration-none">
+                <p>Today</p>
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+            <a href="#2"  class="text-decoration-none">
+                <p>Next Day</p>
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+            <a href="#3"  class="text-decoration-none">
+                <p>Next Day</p>
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+            <a href="#4"  class="text-decoration-none">
+                <p>Next Day</p>
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+            <a href="#5"  class="text-decoration-none">
+                <p>Next Day</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4 p-3 border rounded bg-light">
+    <div class="row">
+        <div class="col col-12" style="text-align: center">
+            <th:block th:replace ="~{Fragment/Detail-weather ::head}"></th:block>
+        </div>
+    </div>
+</div>
+
+<div class="contain-footer">
+    <th:block th:replace="~{Fragment/Footer ::head}"></th:block>
+</div>
+
+</body>
